@@ -1,0 +1,111 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{  
+		    "path" : "pages/home/home",  
+		    "style" : {  
+		        "navigationStyle":"custom"  
+		    }  
+		},
+		{
+		    "path" : "pages/category/category",  
+		    "style" : {  
+		        "navigationStyle":"custom"  
+		    }  
+		},
+		{
+		    "path" : "pages/live/live",  
+		    "style" : {  
+		        "navigationStyle":"custom"  
+		    }  
+		},
+		{
+		    "path" : "pages/ShoppingCart/ShoppingCart",  
+		    "style" : {  
+		        "navigationStyle":"custom"  
+		    }  
+		},
+		{
+		    "path" :   "pages/user/user",
+		    "style" : {  
+		        "navigationStyle":"custom"  
+		    }  
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	// 	"tabBar":{
+	// 		// 导航栏颜色
+	// 		"color":"",
+	// 		// 选中导航栏颜色
+	// 		"selectedColor":"",
+	// 		// 导航栏列表
+	// 		"list":[{
+	// 			// 标题
+	// 			"text":"",
+	// 			// 页面路径
+	// 			"pagePath":"",
+	// 			// 图标路径
+	// 			"iconPath":"",
+	// 			// 选中图标路径
+	// 			"selectedIconPath":""
+	// 		}]
+	// 		console.log快捷键clog
+	// 	}
+	"tabBar":{
+		"color":"#666666",
+		"selectedColor":"#E22D3D",
+		"list":[
+			// 首页
+			{
+				"text":"首页",
+				"pagePath":"pages/home/home",
+				"iconPath":"static/jd1.png",
+				"selectedIconPath":"static/jd2.png"
+			},
+			// 分类
+			{
+				"text":"分类",
+				"pagePath":"pages/category/category",
+				"iconPath":"static/category1.png",
+				"selectedIconPath":"static/category2.png"
+			},
+			// 品质生活圈
+			{
+				"text":"品质生活圈",
+				"pagePath":"pages/live/live",
+				"iconPath":"static/location1.png",
+				"selectedIconPath":"static/location2.png"
+			},
+			// 购物车
+			{
+				"text":"购物车",
+				"pagePath":"pages/ShoppingCart/ShoppingCart",
+				"iconPath":"static/shopingcart.png",
+				"selectedIconPath":"static/shopingcart2.png"
+			},
+			// 我的
+			{
+				"text":"我的",
+				"pagePath":"pages/user/user",
+				"iconPath":"static/user1.png",
+				"selectedIconPath":"static/user2.png"
+			}
+		]
+	}
+}
