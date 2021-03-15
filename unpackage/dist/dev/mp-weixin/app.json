@@ -5,7 +5,8 @@
     "pages/live/live",
     "pages/ShoppingCart/ShoppingCart",
     "pages/user/user",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/login/Login"
   ],
   "subPackages": [],
   "window": {
@@ -54,6 +55,5 @@
       "desc": ""
     }
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap60.json"
+  "usingComponents": {}
 }

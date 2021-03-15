@@ -1,0 +1,14 @@
+
+.container.data-v-cda0c1c8 {
+	height: 180rpx;
+	background-color: #F7F7F7;
+}
+.box.data-v-cda0c1c8 {
+	height: 160rpx;
+	border: 1rpx solid #000;
+	-webkit-transform: translate(0, -20rpx);
+	        transform: translate(0, -20rpx);
+	border-radius: 15rpx;
+	background-color: #fff;
+}
+

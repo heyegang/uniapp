@@ -1,0 +1,1 @@
+<view class="_div data-v-efbcda1e"><view class="box data-v-efbcda1e"><view data-event-opts="{{[['tap',[['handle',['$event']]]]]}}" class="icon data-v-efbcda1e" bindtap="__e"><u-icon vue-id="7c114c35-1" name="arrow-left" color="#5D5F6A" size="40" class="data-v-efbcda1e" bind:__l="__l"></u-icon></view><view class="title data-v-efbcda1e">我的京东</view></view></view>

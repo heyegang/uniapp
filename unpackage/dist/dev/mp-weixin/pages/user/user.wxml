@@ -1,1 +1,1 @@
-<view class="_div"></view>
+<view class="_div data-v-80842834"><child vue-id="380011e0-1" class="data-v-80842834" bind:__l="__l"></child><news vue-id="380011e0-2" class="data-v-80842834" bind:__l="__l"></news><operation vue-id="380011e0-3" class="data-v-80842834" bind:__l="__l"></operation></view>
