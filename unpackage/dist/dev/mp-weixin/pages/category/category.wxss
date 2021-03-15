@@ -1,0 +1,70 @@
+
+.pop {
+	height: 1210rpx;
+	position: relative;
+	padding: 30rpx 20rpx;
+}
+.active {
+	background-color: #FFFFFF !important;
+}
+.tex {
+	width: 180rpx;
+	height: 1104rpx;
+	overflow: scroll;
+}
+.hex {
+	position: absolute;
+	left: 180rpx;
+	top: 0;
+	height: 1104rpx;
+	overflow: scroll;
+	width: 76%;
+}
+.card {
+	width: 100%;
+	font-size: 32rpx;
+	position: fixed;
+	left: 0;
+	top: 130rpx;
+}
+.nav {
+	height: 80rpx;
+	width: 180rpx;
+	line-height: 80rpx;
+	border-bottom: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}
+.dex {
+	text-align: left;
+}
+.iex {
+	width: 33.3%;
+}
+.img {
+	width: 190rpx;
+	height: 190rpx;
+}
+.goods {
+	height: 60rpx;
+	width: 100%;
+	line-height: 60rpx;
+}
+.box {
+	height: 130rpx;
+	width: 100%;
+	border-bottom: 1px solid #DDDDDD;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	background-color: #FFFFFF !important;
+}
+.sea {
+	width: 500rpx;
+	position: absolute;
+	left: 20rpx;
+	top: 50rpx;
+}
+
+
+

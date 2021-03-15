@@ -25,10 +25,50 @@
 /* 透明度 */
 /* 文章场景相关 */
 /*每个页面公共css */
+button {
+  border: 0;
+  cursor: pointer;
+}
+input {
+  border: 0;
+}
+.te-cer {
+  text-align: center;
+}
 .flex {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.spb {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.spa {
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.fixed {
+  position: fixed;
+}
+._img {
+  vertical-align: middle;
+}
+.overhid {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+page,
+page,
+#app {
+  height: 100%;
+}
+.content {
+  padding-bottom: 0px;
 }
 .u-relative,
 .u-rela {
